@@ -1,4 +1,7 @@
-def init_app(app: Flask):
-    from .base import base_bp
+from flask import Flask
 
-    app.register_blueprint(base_bp, url_prefix='/api/v1')
+
+def init_app(app: Flask):
+    from .base import base_api_bp
+
+    app.register_blueprint(base_api_bp, url_prefix='/api/v1')
