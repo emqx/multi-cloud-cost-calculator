@@ -7,5 +7,7 @@ base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 
 def create_app(app=flask_app):
+    from . import views
+
     views.init_app(app)
     return app
