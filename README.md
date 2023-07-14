@@ -1,1 +1,1 @@
-# hybrid-cloud-cost-calculator
+# multi-cloud-cost-calculator
